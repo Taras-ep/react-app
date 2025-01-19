@@ -1,0 +1,42 @@
+.logo-container {
+    height: 265px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 3;
+    font-size: 100px;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+
+.logo-container h1 {
+    color: white;
+    display: block;
+    font-family: KyivType Sans;
+    font-weight: 300;
+}
+
+@keyframes onScrollAnimation {
+    0% {
+        font-size: 100px;
+    }
+    100% {
+        font-size: 32px;
+        height: 100px
+    }
+}
+
+@keyframes onScrollAnimationBackScroll {
+    0% {
+        font-size: 32px;
+    }
+    100% {
+        font-size: 100px;
+        height: 265px;
+    }
+}

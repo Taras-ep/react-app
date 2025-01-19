@@ -1,0 +1,70 @@
+.container {
+    height: 100vh;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    position: relative;
+}
+
+.img-container-1 {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    position: absolute;
+    z-index: 1;
+}
+
+.img-container-2 {
+    display: flex;
+    position: absolute;
+    justify-content: space-between;
+    align-items: flex-end;
+    height: 100%;
+    width: 100%;
+    z-index: 2;
+}
+
+.iphone-camera-inside-preview {
+    width: 1412px;
+    height: 340px;
+}
+
+.iphone-preview {
+    height: 868px;
+    width: 894px;
+    animation-name: iphoneStartAnimation;
+    animation-duration: 2s;
+    position: absolute;
+    left: 0px;
+}
+
+@keyframes iphoneStartAnimation {
+    0% {
+        height: 850px;
+        width: 870px;
+    } 
+    80% {
+        height: 868px;
+        width: 894px;
+    }
+}
+
+.pixel-preview {
+    width: 537px;
+    height: 519px;
+    animation-name: pixelStartAnimation;
+    animation-duration: 2s;
+    position: absolute;
+    right: 0px;
+}
+
+@keyframes pixelStartAnimation {
+    0% {
+        width: 520px;
+        height: 500px;
+    }
+    80% {
+        width: 537px;
+        height: 519px;
+    }
+}

@@ -1,0 +1,109 @@
+.scroll-animation-main-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-self: flex-end;
+    position: absolute;
+    z-index: 3;
+    margin: 30px 0px;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+
+.scroll-animation-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.scroll-animation-container h1{
+    margin: 0;
+    display: block;
+    font-size: 64px;
+    font-weight: 100;
+    color: rgba(255,255,255, 0.5);
+    margin-bottom: 20px;
+}
+
+.element-1 {
+    animation-name: scrollAnimation-2;
+    animation-iteration-count: infinite;
+    animation-duration: 1500ms;
+    animation-delay: 2s;
+    width: 60px;
+    height: 60px;
+    opacity: 0.6;
+}
+
+@keyframes scrollAnimation-2 {
+    30% {
+        margin-bottom: 5px;
+    }
+    100% {
+        margin-top: 0px;
+    }
+}
+
+@keyframes scrollAnimation {
+    0% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+@keyframes scrollAnimationBack {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.element-2 {
+    margin-top: -40px;
+    animation-name: scrollAnimation-1;
+    animation-iteration-count: infinite;
+    animation-duration: 1500ms;
+    animation-delay: 2s;
+    width: 60px;
+    height: 60px;
+    opacity: 0.4;
+}
+
+.element-3 {
+    margin-top: -40px;
+    animation-name: scrollAnimation-3;
+    animation-iteration-count: infinite;
+    animation-duration: 1500ms;
+    animation-delay: 2s;
+    width: 60px;
+    height: 60px;
+    opacity: 0.2;
+}
+
+
+@keyframes scrollAnimation-1 {
+
+    30% {
+        margin-bottom: 10px;
+    }
+    100% {
+        margin-top: -40px;
+    }
+}
+
+@keyframes scrollAnimation-3 {
+    30% {
+        margin-bottom: 15px;
+    }
+    100% {
+        margin-top: -40px;
+    }
+}
+
+
+
