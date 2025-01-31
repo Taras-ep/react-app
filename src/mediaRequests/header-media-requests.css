@@ -1,0 +1,12 @@
+
+@media screen and (max-width: 900px) {
+    .hamburger-menu-container {
+        display: block !important;
+    }
+}
+
+@media screen and (max-width: 1050px) {
+    .nav-menu {
+        display: none !important;
+    }
+}

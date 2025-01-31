@@ -1,0 +1,19 @@
+@media screen and (min-height: 1100px) {
+    .slider-item-2 {
+        height: 60rem;
+    }
+}
+
+@media screen and (max-width: 1400px) {
+    .slider-item-2 {
+        width: 80%;
+        height: 60rem;
+    }
+}
+
+@media screen and (max-width: 1150px) {
+    .slider-item-2 {
+        width: 90%;
+        height: 60rem;
+    }
+}

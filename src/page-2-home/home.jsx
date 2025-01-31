@@ -1,21 +1,13 @@
 import React from "react"
+import { useEffect, useState } from "react";
 import './home.css'
-import Header from "./homePageHeader"
+import HomePageSlider from "./slider/HomePageSlider.tsx";
 
 const Home = () => {
+    
     return (
         <div className="home-page-container">
-            <Header/>
-            <main>
-                <div className="slider-home-page">
-                    <div className="slider-item-2"></div>
-                    <div className="slider-item-1"></div>
-                    <div className="slider-item-3"></div>
-                </div>
-            </main>
-            <footer>
-
-            </footer>
+            <HomePageSlider />
         </div>
     )
 }

@@ -1,0 +1,20 @@
+.hamburger-menu-container {
+    display: none;
+}
+
+.nav-elements {
+    display: none;
+}
+
+.nav-button {
+    position: fixed;
+    transform: translate(0%, -50%);
+}
+
+.nav-button div {
+    width: 7rem;
+    height: 0.7rem;
+    border-radius: 0.7rem;
+    background-color: white;
+    margin: 1rem 0;
+} 

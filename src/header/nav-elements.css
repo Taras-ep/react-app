@@ -1,0 +1,34 @@
+.nav-menu {
+    animation-duration: 500ms;
+    animation-fill-mode: forwards;
+    display: block;
+}
+
+.menu-elements {
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+.menu-left {
+    gap: 2rem;
+}
+
+.menu-right {
+    gap: 3rem;
+}
+
+.menu-elements a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.75rem;
+    font-weight: 100;
+}
+@keyframes navMenuAnimationForward {
+    0% {
+        opacity: 0;
+    } 
+    100% {
+        opacity: 1;
+    }
+}

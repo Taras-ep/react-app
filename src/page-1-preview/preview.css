@@ -25,46 +25,48 @@
 }
 
 .iphone-camera-inside-preview {
-    width: 1412px;
-    height: 340px;
+    width: 73%;
+    height: 36.5vh;
 }
 
 .iphone-preview {
-    height: 868px;
-    width: 894px;
+    height: 54.25rem;
+    width: 55.75rem;
     animation-name: iphoneStartAnimation;
     animation-duration: 2s;
     position: absolute;
-    left: 0px;
+    left: 0rem;
 }
 
 @keyframes iphoneStartAnimation {
     0% {
-        height: 850px;
-        width: 870px;
-    } 
+        height: 53.125rem;
+        width: 54.375rem;
+    }
+
     80% {
-        height: 868px;
-        width: 894px;
+        height: 54.25rem;
+        width: 55.875rem;
     }
 }
 
 .pixel-preview {
-    width: 537px;
-    height: 519px;
+    width: 33.625rem;
+    height: 32.5rem;
     animation-name: pixelStartAnimation;
     animation-duration: 2s;
     position: absolute;
-    right: 0px;
+    right: 0rem;
 }
 
 @keyframes pixelStartAnimation {
     0% {
-        width: 520px;
-        height: 500px;
+        width: 32.5rem;
+        height: 31.25rem;
     }
+
     80% {
-        width: 537px;
-        height: 519px;
+        width: 33.625rem;
+        height: 32.5rem;
     }
 }
